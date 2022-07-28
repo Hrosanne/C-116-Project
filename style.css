@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-rose:hover{
+    background-color: #a85232;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow:1px 1px 38px #a85232;}
+    to{box-shadow:1px 1px 38px #ad8a7d;}
+}
+
+.btn{
+    background-color: burlywood;
+    color: white;
+}
